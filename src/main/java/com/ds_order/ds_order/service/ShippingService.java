@@ -5,10 +5,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ShippingService {
-    /*private Order order;
-    public ShippingService(Order order) {
-        this.order = order;
-    }*/
 
     public Double shipment(Order order){
         if(order.getBasic()<100.00)
