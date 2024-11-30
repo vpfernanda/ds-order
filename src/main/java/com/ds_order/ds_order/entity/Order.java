@@ -13,7 +13,7 @@ public class Order {
     public Order(Integer code, Double basic, Double discount) {
         this.code = code;
         this.basic = basic;
-        this.discount = discount/100;
+        this.discount = discount/100.0;
     }
 
     public Integer getCode() {
